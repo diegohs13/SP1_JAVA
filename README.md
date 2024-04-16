@@ -55,60 +55,65 @@ CLINICAS
 
 ## Imagens
 ![Diagrama de relacionamentos](https://github.com/diegohs13/SP1_JAVA/blob/main/Diagrama1.png)
-- _**Entidades e Atributos**_
--
+- _**Entidades e Atributos**_<br>
+
 - **Paciente**
 - cpf (chave primária)
 - nome_completo
 - data_nasc
 - end_paciente
 - tel_paciente
-- email_paciente
-- 
+- email_paciente<br>
+
+ 
 - **Clínica**
 - cnpj (chave primária)
 - nome_clinica
 - cel_clinica
-- conveniada
-- 
+- conveniada<br>
+
+ 
 - **Consulta**
 - id_consulta (chave primária)
 - data_hora_consulta
 - idClinica (chave estrangeira)
 - idPaciente (chave estrangeira)
-- idAgendamento (chave estrangeira)
-- 
+- idAgendamento (chave estrangeira)<br>
+  
 - **Exames**
 - idExame (chave primária)
 - idConsulta (chave estrangeira)
 - tipo_exame
-- resultado
--
+- resultado<br>
+
 - **Agendamento**
 - n_protocolo (chave primária)
 - idPaciente (chave estrangeira)
 - dataHora_agendamento
-- clinica_agendamento
--
-- **_Relacionamentos_**
-- 
+- clinica_agendamento<br>
+<br>
+
+- **_Relacionamentos_**<br>
+
 - **Paciente para Consulta**
 - Um paciente pode ter várias consultas.
-- Uma consulta é específica de um paciente.
-- 
+- Uma consulta é específica de um paciente.<br>
+
 - **Paciente para Agendamento**
 - Um paciente pode ter vários agendamentos.
-- Um agendamento é específico de um paciente.
-- 
+- Um agendamento é específico de um paciente.<br>
+
 - **Consulta para Exames**
 - Uma consulta pode ter vários exames associados.
-- Um exame é específico de uma consulta.
-- 
+- Um exame é específico de uma consulta.<br>
+
 - **Clínica para Consulta**
 - Uma clínica pode hospedar várias consultas.
-- Uma consulta acontece em uma clínica.
+- Uma consulta acontece em uma clínica.<br>
+
 ![Diagrama de clases](https://github.com/diegohs13/SP1_JAVA/blob/main/Diagrama2.png)
-- Paciente e Clinica estão associados a Agendamento(classe pai),  Consulta e Exame são heranças de Agendamento.
+- Paciente e Clinica estão associados a Agendamento(classe pai),  Consulta e Exame são heranças de Agendamento.<br>
+
 
 ## Nome da Aplicação
 Health Tech
