@@ -1,7 +1,7 @@
 package com.example.sprint1java.domain.paciente;
 
 
-import com.example.sprint1java.repository.PacienteRepository;
+import com.example.sprint1java.repository.pacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ import java.util.Optional;
 @RequestMapping("/pacientes")
 public class PacienteCrontroller {
     @Autowired
-    private PacienteRepository repository;
+    private pacienteRepository repository;
 
     //Retorna todos os pacientes
     @GetMapping

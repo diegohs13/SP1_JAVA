@@ -1,0 +1,29 @@
+[
+  [{"_comentario": "Este arquivo mostra os jsons esperados nos metodos GET de agendamentos"},
+  {"Endpoint": "/agendamentos"},
+  {
+    "n_protocolo": 1299507,
+    "data_hora_agendamento": "12/02/24 13:00:00 "
+  },
+  {
+    "n_protocolo": 1138474,
+    "data_hora_agendamento": "30/01/24 08:30:00"
+  },
+  {
+    "n_protocolo": 6100841,
+    "data_hora_agendamento": "08/12/23 14:00:00 "
+  },
+  {
+    "n_protocolo": 4597712,
+    "data_hora_agendamento": "23/03/24 10:00:00"
+  },
+  {
+    "n_protocolo": 9926505,
+    "data_hora_agendamento": "01/05/24 16:00:00"
+  }],
+  [{"Endpoint": "/agendamentos/1299507"},
+  {
+    "n_protocolo": 1299507,
+    "data_hora_agendamento": "12/02/24 13:00:00 "
+  }]
+]

@@ -1,7 +1,7 @@
 package com.example.sprint1java.domain.consulta;
 
 
-import com.example.sprint1java.repository.ConsultaRepository;
+import com.example.sprint1java.repository.consultaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,7 @@ import java.util.Optional;
 @RequestMapping("/consultas")
 public class ConsultaCrontroller {
     @Autowired
-    private ConsultaRepository repository;
+    private consultaRepository repository;
 
     //Retorna todos as consultas
     @GetMapping()

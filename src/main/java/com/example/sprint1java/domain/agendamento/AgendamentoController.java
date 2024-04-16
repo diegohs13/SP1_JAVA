@@ -1,6 +1,6 @@
 package com.example.sprint1java.domain.agendamento;
 
-import com.example.sprint1java.repository.AgendamentoRepository;
+import com.example.sprint1java.repository.agendamentoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import java.util.Optional;
 @RequestMapping("/agendamentos")
 public class AgendamentoController {
     @Autowired
-    private AgendamentoRepository repository;
+    private agendamentoRepository repository;
 
     //Retorna todos os agendamentos
     @GetMapping()

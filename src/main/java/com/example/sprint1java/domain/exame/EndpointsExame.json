@@ -1,0 +1,80 @@
+[
+  [{"_comentario": "Este arquivo mostra os jsons esperados nos metodos GET de paciente"},
+    {"Endpoint": "/pacientes"},
+    {
+      "cpf": 22601248017,
+      "nome_completo": "Ana Silva Santos",
+      "data_nasc": "12/02/1999",
+      "end_paciente": "São Paulo",
+      "tel_paciente": 957016548,
+      "email_paciente": "ana.silva@gmail.com"
+    },
+    {
+      "cpf": 78944025088,
+      "nome_completo": "Carlos Oliveira Lima",
+      "data_nasc": "23/09/1980",
+      "end_paciente": "Bahia",
+      "tel_paciente": 971360049,
+      "email_paciente": "limacarlos2@yahoo.com.br"
+    },
+    {
+      "cpf": 58458339064,
+      "nome_completo": "Maria Fernandes Costa",
+      "data_nasc": "01/08/2000",
+      "end_paciente": "Parana",
+      "tel_paciente": 972015455,
+      "email_paciente": "fernandescosta@icloud.com"
+    },
+    {
+      "cpf": 74530531023,
+      "nome_completo": "João Souza Pereira",
+      "data_nasc": "15/07/2004",
+      "end_paciente": "Rio de Janeiro",
+      "tel_paciente": 987254632,
+      "email_paciente": "joaopereira123@gmail.com"
+    },
+    {
+      "cpf": 10922455023,
+      "nome_completo": "Laura Martins Almeida",
+      "data_nasc": "30/01/1993",
+      "end_paciente": "Goiania",
+      "tel_paciente": 958462178,
+      "email_paciente": "laura.almeida@gmail.com"
+    }
+  ],
+  [{"Endpoint": "/pacientes/58458339064"},
+    {
+      "cpf": 58458339064,
+      "nome_completo": "Maria Fernandes Costa",
+      "data_nasc": "01/08/2000",
+      "end_paciente": "Parana",
+      "tel_paciente": 972015455,
+      "email_paciente": "fernandescosta@icloud.com"
+    }],
+  [{"Comentario": "Metodo POST serve para cadastrar um novo paciente enviando um json"},
+    {"Endpoint": "/pacientes"},
+    {
+      "cpf": 52733860801,
+      "nome_completo": "Diego Henrique Santos",
+      "data_nasc": "29/11/2003",
+      "end_paciente": "Guarulhos",
+      "tel_paciente": 11946236792,
+      "email_paciente": "diego12345@gmail.com"
+    }],
+  [{"Comentario": "Metodo PUT serve para atualizar um paciente pelo seu cpf na url e enviando um JSON"},
+    {"Endpoint": "/pacientes/74530531023"},
+    {
+      "cpf": 74530531023,
+      "nome_completo": "Daiani Melo Freitas",
+      "data_nasc": "19/01/2002",
+      "end_paciente": "Pernambuco",
+      "tel_paciente": 984354632,
+      "email_paciente": "daianemelo321@gmail.com"
+    }],
+  [{"Comentario": "Metodo DELETE serve para deletar um paciente pelo seu cpf na url"},
+    {"Endpoint": "/pacientes/22601248017"},
+    {
+      "message": "Paciente excluido"
+    }]
+
+]

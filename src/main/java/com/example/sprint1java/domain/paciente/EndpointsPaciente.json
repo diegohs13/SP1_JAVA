@@ -1,0 +1,36 @@
+[
+  [{"_comentario": "Este arquivo mostra os jsons esperados nos metodos GET de paciente"},
+    {"Endpoint": "/pacientes"},
+    {
+      "id_exame": 543972,
+      "tipo_exame": "Ultrassonografia",
+      "resultado": "Imagens disponiveis no portal do convenio"
+    },
+    {
+      "id_exame": 125679,
+      "tipo_exame": "Exame de sangue e urina",
+      "resultado": "Normal"
+    },
+    {
+      "id_exame": 730165,
+      "tipo_exame": "Eletrocardiograma",
+      "resultado":"Batimentos abaixo do normal"
+    },
+    {
+      "id_exame": 468217,
+      "tipo_exame": "Teste de glicemia em jejum",
+      "resultado":"Alterado"
+    },
+    {
+      "id_exame": 403560,
+      "tipo_exame": "Radiografia de tórax",
+      "resultado":"Normal. Imagens anexas."
+    }
+  ],
+  [{"Endpoint": "/exames/125679"},
+    {
+      "id_exame": 125679,
+      "tipo_exame": "Exame de sangue e urina",
+      "resultado": "Normal"
+    }]
+]

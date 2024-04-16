@@ -1,6 +1,6 @@
 package com.example.sprint1java.domain.clinica;
 
-import com.example.sprint1java.repository.ClinicaRepository;
+import com.example.sprint1java.repository.clinicaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import java.util.Optional;
 @RequestMapping("/clinicas")
 public class ClinicaController {
     @Autowired
-    private ClinicaRepository repository;
+    private clinicaRepository repository;
 
     //Retorna todos as clinicas
     @GetMapping()

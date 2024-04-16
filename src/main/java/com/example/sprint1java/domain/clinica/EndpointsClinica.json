@@ -1,0 +1,41 @@
+[
+  [{"_comentario": "Este arquivo mostra os jsons esperados nos metodos GET de clinica"},
+    {"Endpoint": "/clinicas"},
+    {
+      "cnpj": 64544060000158,
+    "nome_clinica": "Tecnolab",
+    "tel_clinica": 956347691,
+    "conveniada": "V"
+    },
+    {
+      "cnpj": 20639086000104,
+      "nome_clinica": "BahiaMed",
+      "tel_clinica": 978351248,
+      "conveniada": "F"
+    },
+    {
+      "cnpj": 40661566000189,
+      "nome_clinica": "Parana Clinicas",
+      "tel_clinica": 954768721,
+      "conveniada": "V"
+    },
+    {
+      "cnpj": 17422564000115,
+      "nome_clinica": "Clinica de Radiologia RJ",
+      "tel_clinica": 965713485,
+      "conveniada": "V"
+    },
+    {
+      "cnpj": 74800336000175,
+      "nome_clinica":  "Fleury",
+      "tel_clinica": 965314876,
+      "conveniada": "F"
+    }],
+  [{"Endpoint": "/clinicas/64544060000158"},
+    {
+      "cnpj": 64544060000158,
+      "nome_clinica": "Tecnolab",
+      "tel_clinica": 956347691,
+      "conveniada": "V"
+    }]
+]

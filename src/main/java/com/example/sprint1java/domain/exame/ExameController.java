@@ -1,6 +1,6 @@
 package com.example.sprint1java.domain.exame;
 
-import com.example.sprint1java.repository.ExameRepository;
+import com.example.sprint1java.repository.exameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +15,7 @@ import java.util.Optional;
 @RequestMapping("/exames")
 public class ExameController {
     @Autowired
-    private ExameRepository repository;
+    private exameRepository repository;
 
     //Retorna todos os exames
     @GetMapping()
