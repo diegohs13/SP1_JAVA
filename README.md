@@ -56,6 +56,7 @@ CLINICAS
 ## Imagens
 ![Diagrama de relacionamentos](https://github.com/diegohs13/SP1_JAVA/blob/main/Diagrama1.png)
 - _**Entidades e Atributos**_<br>
+<br>
 
 - **Paciente**
 - cpf (chave primária)
@@ -64,27 +65,29 @@ CLINICAS
 - end_paciente
 - tel_paciente
 - email_paciente<br>
+<br>
 
- 
 - **Clínica**
 - cnpj (chave primária)
 - nome_clinica
 - cel_clinica
 - conveniada<br>
+<br>
 
- 
 - **Consulta**
 - id_consulta (chave primária)
 - data_hora_consulta
 - idClinica (chave estrangeira)
 - idPaciente (chave estrangeira)
 - idAgendamento (chave estrangeira)<br>
-  
+<br>
+
 - **Exames**
 - idExame (chave primária)
 - idConsulta (chave estrangeira)
 - tipo_exame
 - resultado<br>
+<br>
 
 - **Agendamento**
 - n_protocolo (chave primária)
@@ -92,20 +95,25 @@ CLINICAS
 - dataHora_agendamento
 - clinica_agendamento<br>
 <br>
+<br>
 
 - **_Relacionamentos_**<br>
+<br>
 
 - **Paciente para Consulta**
 - Um paciente pode ter várias consultas.
 - Uma consulta é específica de um paciente.<br>
+<br>
 
 - **Paciente para Agendamento**
 - Um paciente pode ter vários agendamentos.
 - Um agendamento é específico de um paciente.<br>
+<br>
 
 - **Consulta para Exames**
 - Uma consulta pode ter vários exames associados.
 - Um exame é específico de uma consulta.<br>
+<br>
 
 - **Clínica para Consulta**
 - Uma clínica pode hospedar várias consultas.
